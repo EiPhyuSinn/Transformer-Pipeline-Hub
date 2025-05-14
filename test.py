@@ -4,7 +4,7 @@ print("Sentiment Analysis:")
 print(SentimentAnalysis('I love sweets').predict())
 
 print("\nFill Mask:")
-print(FillMask("The capital of France is [MASK].").predict())
+print(FillMask("The capital of France is <mask>").predict())
 
 print("\nNamed Entity Recognition:")
 print(NER("Hugging Face is based in New York City.").predict())
